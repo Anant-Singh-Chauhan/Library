@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utlities</title>
+    <link rel="stylesheet" href="styles/popup.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+        /* *{
+            text-align: center;
+        } */
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            left: 0;
+            right: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: rgba(0, 0, 0, 0.2);
+            display: flex;
+        }
+
+        .iconBox {
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-inline: auto;
+            display: inline;
+            /* width: 200px;
+            height: 200px; */
+            background-color: rgba(0, 0.5, 0, 0);
+            text-align: center;
+        }
+
+        img {
+            width: 20vw;
+            height: 30vh;
+            border-radius: 15px;
+            cursor: pointer;
+
+        }
+
+        h6 {
+            margin-top: 10px;
+            margin-inline: auto;
+        }
+
+        input {
+            margin-inline: auto;
+            /* border-radius: 10px; */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar top -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">NITJ Library</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Books
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="allBooks.html">All Books</a></li>
+                            <li><a class="dropdown-item" href="bookIssue.html">Book Issue</a></li>
+                            <!-- <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"></a></li> -->
+                        </ul>
+                    </li>
+                    <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Books</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Books</a>
+              </li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Records
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="issueRecords.html">Issue Records</a></li>
+                            <!-- <li><a class="dropdown-item" href="#">Another action</a></li> -->
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="Defaulters.html">Defaulters</a></li>
+                        </ul>
+                    </li>
+                    <!-- <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Utilities.html">Utilities</a>
+                    </li>
+                </ul>
+                <!-- <form class="d-flex" role="search">
+            
+                    <button class="btn btn-outline-success" onclick="ExportToExcel()" type="button">Export</button>
+                </form> -->
+            </div>
+        </div>
+    </nav>
+
+    <div class=" background">
+        <div class="iconBox">
+            <img src="Resources\icons\export-excel.png" onclick="ExportToExcel()" alt="Export to Excel">
+            <h6>Export</h6>
+        </div>
+        <div class="iconBox">
+            <img src="Resources\icons\backupimg.png" onclick="BackUp()" alt="Backup As JSON">
+            <h6>BackUp</h6>
+
+        </div>
+        <div class="iconBox">
+            <img src="Resources\icons\restore.png" onclick="ChooseBackup()" alt="Restore from JSON">
+            <h6>Restore</h6>
+            <input type="file" placeholder="Choose Backup File" disabled="true" accept=".json" id="backupFile"
+                onchange="Restore(event)">
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
+        <div class="container-fluid " style="margin-inline-start: 650px;">
+            <a class="navbar-brand " href="#">NITJ Library</a>
+        </div>
+    </nav>
+
+    <!-- scripts -->
+    <script src="js/index.js"></script>
+    <script src="js/Backup.js"></script>
+    <script src="js/Restore.js"></script>
+    <script src="js/Export.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js"></script>
+</body>
+
+</html> 

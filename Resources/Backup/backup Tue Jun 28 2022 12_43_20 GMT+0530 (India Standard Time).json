@@ -1,0 +1,1201 @@
+[{
+    "elemKey": "IssuedBookSearchLib",
+    "elemData": [{
+        "memberId": "Anant Chauhan",
+        "date": "2022-06-24",
+        "bookList": [{
+            "bookname": "The Rise and Reign of the Mammals",
+            "author": "Steve Brusatte",
+            "genre": "Non-Fiction",
+            "dateInducted": "2014-01-01",
+            "quantity": 101,
+            "publication": "GE",
+            "source": "NITJ",
+            "bookId": "Nitj#24"
+        }, {
+            "bookname": "A (Very) Short History of Life On Earth",
+            "author": "Henry Gee",
+            "genre": "Non-Fiction",
+            "dateInducted": "2018-01-01",
+            "quantity": "48",
+            "publication": "BNet",
+            "source": "Dr. Pheonix",
+            "bookId": "Nitj#30"
+        }, {
+            "bookname": "The Age of A.I. ",
+            "author": "Henry Kissinger, Eric Schmidt, and Daniel Huttenlocher",
+            "genre": "Technology",
+            "dateInducted": "2017-01-01",
+            "quantity": "105",
+            "publication": "Bnet",
+            "source": "Dr.KJ",
+            "bookId": "Nitj#31"
+        }],
+        "returned": [true, false, false]
+    }]
+}, {
+    "elemKey": "search",
+    "elemData": []
+}, {
+    "elemKey": "IssueSearchLib",
+    "elemData": [{
+        "bookname": "The C Programming Language",
+        "author": "Brian W. Kernighan",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "CSE",
+        "source": "NITJ",
+        "bookId": "Nitj#1"
+    }, {
+        "bookname": "Codes: The Hidden Language of the Computer Hardware and software",
+        "author": "Charles Petzold",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "CSE",
+        "source": "NITJ",
+        "bookId": "Nitj#7"
+    }, {
+        "bookname": "2 States: The Story of My Marriage",
+        "author": "Chetan Bhagat",
+        "genre": "Fiction",
+        "dateInducted": "2015-01-01",
+        "quantity": "100",
+        "publication": "CB",
+        "source": "Prof. Ramya",
+        "bookId": "Nitj#21"
+    }, {
+        "bookname": "The Age of A.I. ",
+        "author": "Henry Kissinger, Eric Schmidt, and Daniel Huttenlocher",
+        "genre": "Technology",
+        "dateInducted": "2017-01-01",
+        "quantity": 104,
+        "publication": "Bnet",
+        "source": "Dr.KJ",
+        "bookId": "Nitj#31"
+    }]
+}, {
+    "elemKey": "Defaulters",
+    "elemData": [{
+        "memberId": "Ritish",
+        "date": "2022-06-05",
+        "bookList": [{
+            "bookname": "God: An Anatomy",
+            "author": "Francesca Stavrakopoulou",
+            "genre": "Non-Fiction",
+            "dateInducted": "2014-01-01",
+            "quantity": 101,
+            "publication": "DBEC",
+            "source": "Prof. Mercury",
+            "bookId": "Nitj#27"
+        }, {
+            "bookname": "Queen of Our Times",
+            "author": "Robert Hardman",
+            "genre": "Non-Fiction",
+            "dateInducted": "2014-01-01",
+            "quantity": "100",
+            "publication": "QTEB",
+            "source": "NITJ",
+            "bookId": "Nitj#25"
+        }],
+        "returned": [true, 160]
+    }]
+}, {
+    "elemKey": "IssuedBookCount",
+    "elemData": 5
+}, {
+    "elemKey": "available",
+    "elemData": [{
+        "bookname": "The C Programming Language",
+        "author": "Brian W. Kernighan",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "CSE",
+        "source": "NITJ",
+        "bookId": "Nitj#1"
+    }, {
+        "bookname": "The Soul of a New Machine",
+        "author": "Tracy Kidder",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "CSE",
+        "source": "NITJ",
+        "bookId": "Nitj#2"
+    }, {
+        "bookname": "The Art of Computer Programming, Volume 1: Fundamentals of Algorithm",
+        "author": "Donald Ervin Knuth",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "CSE",
+        "source": "NITJ",
+        "bookId": "Nitj#3"
+    }, {
+        "bookname": "Superintelligence: Path, Dangers, Strategies",
+        "author": "Nick Bostrom",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "CSE",
+        "source": "NITJ",
+        "bookId": "Nitj#4"
+    }, {
+        "bookname": "Design Patterns: Elements of Reusable objects Oriented Software",
+        "author": "Erich Gamma, John Vlissides, Richard Helm",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": 100,
+        "publication": "CSE",
+        "source": "NITJ",
+        "bookId": "Nitj#5"
+    }, {
+        "bookname": "The Computer Networking: A Top-Down Approach",
+        "author": "James F. Kurose and Keith W. Ross",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "CSE",
+        "source": "NITJ",
+        "bookId": "Nitj#6"
+    }, {
+        "bookname": "Codes: The Hidden Language of the Computer Hardware and software",
+        "author": "Charles Petzold",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "CSE",
+        "source": "NITJ",
+        "bookId": "Nitj#7"
+    }, {
+        "bookname": "The Artificial Intelligence: A Modern Approach",
+        "author": "Stuart Russell",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": 100,
+        "publication": "CSE",
+        "source": "NITJ",
+        "bookId": "Nitj#8"
+    }, {
+        "bookname": "Marks Standard Handbook for Mechanical Engineers",
+        "author": "William M. Worek, Ali M Sadigh",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": 99,
+        "publication": "ME",
+        "source": "NITJ",
+        "bookId": "Nitj#9"
+    }, {
+        "bookname": "Standard Handbook of Machine Design",
+        "author": "Joseph E. Shigley, Charles R. Mischke",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": 99,
+        "publication": "ME",
+        "source": "NITJ",
+        "bookId": "Nitj#10"
+    }, {
+        "bookname": "Machinery’s Handbook",
+        "author": "Erik Oberg, Franklin D. Jones",
+        "genre": "Course",
+        "dateInducted": "2000-10-10",
+        "quantity": 99,
+        "publication": "ME",
+        "source": "NITJ",
+        "bookId": "Nitj#11"
+    }, {
+        "bookname": "Thermodynamics: An Engineering Approach",
+        "author": "Yunus A. Cengel",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "ME",
+        "source": "NITJ",
+        "bookId": "Nitj#12"
+    }, {
+        "bookname": "Fluid Mechanics",
+        "author": "Frank M. White",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "ME",
+        "source": "NITJ",
+        "bookId": "Nitj#13"
+    }, {
+        "bookname": "To Engineer Is Human",
+        "author": "Henry Petroski",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "ME",
+        "source": "NITJ",
+        "bookId": "Nitj#14"
+    }, {
+        "bookname": "The Maid",
+        "author": "Nita Prose",
+        "genre": "Fiction",
+        "dateInducted": "2021-01-01",
+        "quantity": "100",
+        "publication": "GMA Books",
+        "source": "Nita Prose",
+        "bookId": "Nitj#15"
+    }, {
+        "bookname": "Olga Dies Dreaming",
+        "author": "Xochitl Gonzalez",
+        "genre": "Fiction",
+        "dateInducted": "2021-01-01",
+        "quantity": "100",
+        "publication": "ABC",
+        "source": "D. Rec",
+        "bookId": "Nitj#16"
+    }, {
+        "bookname": "To Paradise",
+        "author": "Hanya Yanagihara",
+        "genre": "Fiction",
+        "dateInducted": "2021-01-01",
+        "quantity": "50",
+        "publication": "BDE",
+        "source": "CMO",
+        "bookId": "Nitj#17"
+    }, {
+        "bookname": "The Fields",
+        "author": "Erin Young",
+        "genre": "Fiction",
+        "dateInducted": "2022-01-01",
+        "quantity": "20",
+        "publication": "ACE",
+        "source": "AATKINS",
+        "bookId": "Nitj#18"
+    }, {
+        "bookname": "The God of Small Things",
+        "author": "Arundhati Roy ",
+        "genre": "Fiction",
+        "dateInducted": "2011-01-01",
+        "quantity": "100",
+        "publication": "GoodRead Publications",
+        "source": "Admin",
+        "bookId": "Nitj#19"
+    }, {
+        "bookname": "The White Tiger",
+        "author": "Aravind Adiga",
+        "genre": "Fiction",
+        "dateInducted": "2012-01-01",
+        "quantity": "100",
+        "publication": "Indian-Fiction",
+        "source": "NITJ",
+        "bookId": "Nitj#20"
+    }, {
+        "bookname": "2 States: The Story of My Marriage",
+        "author": "Chetan Bhagat",
+        "genre": "Fiction",
+        "dateInducted": "2015-01-01",
+        "quantity": "100",
+        "publication": "CB",
+        "source": "Prof. Ramya",
+        "bookId": "Nitj#21"
+    }, {
+        "bookname": "The 3 Mistakes of My Life",
+        "author": "Chetan Bhagat ",
+        "genre": "Fiction",
+        "dateInducted": "2016-01-01",
+        "quantity": "100",
+        "publication": "CB",
+        "source": "Prof. Ramya",
+        "bookId": "Nitj#22"
+    }, {
+        "bookname": "The Secret of the Nagas (Shiva Trilogy #2)",
+        "author": "Amish Tripathi",
+        "genre": "Fiction",
+        "dateInducted": "2014-01-01",
+        "quantity": "100",
+        "publication": "AT",
+        "source": "NITJ",
+        "bookId": "Nitj#23"
+    }, {
+        "bookname": "The Rise and Reign of the Mammals",
+        "author": "Steve Brusatte",
+        "genre": "Non-Fiction",
+        "dateInducted": "2014-01-01",
+        "quantity": 100,
+        "publication": "GE",
+        "source": "NITJ",
+        "bookId": "Nitj#24"
+    }, {
+        "bookname": "Queen of Our Times",
+        "author": "Robert Hardman",
+        "genre": "Non-Fiction",
+        "dateInducted": "2014-01-01",
+        "quantity": 99,
+        "publication": "QTEB",
+        "source": "NITJ",
+        "bookId": "Nitj#25"
+    }, {
+        "bookname": "In Defence of Witches",
+        "author": "Mona Chollet",
+        "genre": "Non-Fiction",
+        "dateInducted": "2014-01-01",
+        "quantity": "100",
+        "publication": "Munit",
+        "source": "Prof. Mercury",
+        "bookId": "Nitj#26"
+    }, {
+        "bookname": "God: An Anatomy",
+        "author": "Francesca Stavrakopoulou",
+        "genre": "Non-Fiction",
+        "dateInducted": "2014-01-01",
+        "quantity": 100,
+        "publication": "DBEC",
+        "source": "Prof. Mercury",
+        "bookId": "Nitj#27"
+    }, {
+        "bookname": "This Is Going to Hurt",
+        "author": "Adam Kay",
+        "genre": "Non-Fiction",
+        "dateInducted": "2014-01-01",
+        "quantity": "100",
+        "publication": "BNEt",
+        "source": "Dr. Neon",
+        "bookId": "Nitj#28"
+    }, {
+        "bookname": "The Happiest Man on Earth",
+        "author": "Eddie Jaku",
+        "genre": "Non-Fiction",
+        "dateInducted": "2017-01-01",
+        "quantity": "85",
+        "publication": "QCP",
+        "source": "Dr. Pheonix",
+        "bookId": "Nitj#29"
+    }, {
+        "bookname": "A (Very) Short History of Life On Earth",
+        "author": "Henry Gee",
+        "genre": "Non-Fiction",
+        "dateInducted": "2018-01-01",
+        "quantity": 48,
+        "publication": "BNet",
+        "source": "Dr. Pheonix",
+        "bookId": "Nitj#30"
+    }, {
+        "bookname": "The Age of A.I. ",
+        "author": "Henry Kissinger, Eric Schmidt, and Daniel Huttenlocher",
+        "genre": "Technology",
+        "dateInducted": "2017-01-01",
+        "quantity": 104,
+        "publication": "Bnet",
+        "source": "Dr.KJ",
+        "bookId": "Nitj#31"
+    }, {
+        "bookname": " Doing Agile Right: Transformation without Chaos",
+        "author": "Darrell K. Rigby, Sarah Elk, and Steve Berez",
+        "genre": "Technology",
+        "dateInducted": "2016-01-01",
+        "quantity": "58",
+        "publication": "Dnet",
+        "source": "Dr.Kayo",
+        "bookId": "Nitj#32"
+    }, {
+        "bookname": "Technology & Society: Second Edition ",
+        "author": "Deborah G. Johnson and Jameson M. Wetmore",
+        "genre": "Technology",
+        "dateInducted": "2019-01-01",
+        "quantity": "104",
+        "publication": "RNP",
+        "source": "Dr. KJ",
+        "bookId": "Nitj#33"
+    }, {
+        "bookname": "Kubernetes Security and Observability ",
+        "author": "Brendan Creane, Amit Gupta",
+        "genre": "Technology",
+        "dateInducted": "2019-01-01",
+        "quantity": "105",
+        "publication": "GNTP",
+        "source": "Prof. Breach",
+        "bookId": "Nitj#34"
+    }, {
+        "bookname": "Women of Color in Tech: A Blueprint for Inspiring and Mentoring the Next Generation of Technology Innovators ",
+        "author": "Susanne Tedrick",
+        "genre": "Technology",
+        "dateInducted": "2014-12-01",
+        "quantity": "82",
+        "publication": "NKTY",
+        "source": "Viper",
+        "bookId": "Nitj#35"
+    }, {
+        "bookname": "The Economics of Data, Analytics, and Digital Transformation: The theorems, laws, and empowerments to guide your organization’s digital transformation ",
+        "author": "Bill Schmarzo",
+        "genre": "Technology",
+        "dateInducted": "2013-12-05",
+        "quantity": "89",
+        "publication": "NTP",
+        "source": "Dr. Viper",
+        "bookId": "Nitj#36"
+    }]
+}, {
+    "elemKey": "library",
+    "elemData": [{
+        "bookname": "The C Programming Language",
+        "author": "Brian W. Kernighan",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "CSE",
+        "source": "NITJ",
+        "bookId": "Nitj#1"
+    }, {
+        "bookname": "The Soul of a New Machine",
+        "author": "Tracy Kidder",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "CSE",
+        "source": "NITJ",
+        "bookId": "Nitj#2"
+    }, {
+        "bookname": "The Art of Computer Programming, Volume 1: Fundamentals of Algorithm",
+        "author": "Donald Ervin Knuth",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "CSE",
+        "source": "NITJ",
+        "bookId": "Nitj#3"
+    }, {
+        "bookname": "Superintelligence: Path, Dangers, Strategies",
+        "author": "Nick Bostrom",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "CSE",
+        "source": "NITJ",
+        "bookId": "Nitj#4"
+    }, {
+        "bookname": "Design Patterns: Elements of Reusable objects Oriented Software",
+        "author": "Erich Gamma, John Vlissides, Richard Helm",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "CSE",
+        "source": "NITJ",
+        "bookId": "Nitj#5"
+    }, {
+        "bookname": "The Computer Networking: A Top-Down Approach",
+        "author": "James F. Kurose and Keith W. Ross",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "CSE",
+        "source": "NITJ",
+        "bookId": "Nitj#6"
+    }, {
+        "bookname": "Codes: The Hidden Language of the Computer Hardware and software",
+        "author": "Charles Petzold",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "CSE",
+        "source": "NITJ",
+        "bookId": "Nitj#7"
+    }, {
+        "bookname": "The Artificial Intelligence: A Modern Approach",
+        "author": "Stuart Russell",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "CSE",
+        "source": "NITJ",
+        "bookId": "Nitj#8"
+    }, {
+        "bookname": "Marks Standard Handbook for Mechanical Engineers",
+        "author": "William M. Worek, Ali M Sadigh",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "ME",
+        "source": "NITJ",
+        "bookId": "Nitj#9"
+    }, {
+        "bookname": "Standard Handbook of Machine Design",
+        "author": "Joseph E. Shigley, Charles R. Mischke",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "ME",
+        "source": "NITJ",
+        "bookId": "Nitj#10"
+    }, {
+        "bookname": "Machinery’s Handbook",
+        "author": "Erik Oberg, Franklin D. Jones",
+        "genre": "Course",
+        "dateInducted": "2000-10-10",
+        "quantity": "100",
+        "publication": "ME",
+        "source": "NITJ",
+        "bookId": "Nitj#11"
+    }, {
+        "bookname": "Thermodynamics: An Engineering Approach",
+        "author": "Yunus A. Cengel",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "ME",
+        "source": "NITJ",
+        "bookId": "Nitj#12"
+    }, {
+        "bookname": "Fluid Mechanics",
+        "author": "Frank M. White",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "ME",
+        "source": "NITJ",
+        "bookId": "Nitj#13"
+    }, {
+        "bookname": "To Engineer Is Human",
+        "author": "Henry Petroski",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "ME",
+        "source": "NITJ",
+        "bookId": "Nitj#14"
+    }, {
+        "bookname": "The Maid",
+        "author": "Nita Prose",
+        "genre": "Fiction",
+        "dateInducted": "2021-01-01",
+        "quantity": "100",
+        "publication": "GMA Books",
+        "source": "Nita Prose",
+        "bookId": "Nitj#15"
+    }, {
+        "bookname": "Olga Dies Dreaming",
+        "author": "Xochitl Gonzalez",
+        "genre": "Fiction",
+        "dateInducted": "2021-01-01",
+        "quantity": "100",
+        "publication": "ABC",
+        "source": "D. Rec",
+        "bookId": "Nitj#16"
+    }, {
+        "bookname": "To Paradise",
+        "author": "Hanya Yanagihara",
+        "genre": "Fiction",
+        "dateInducted": "2021-01-01",
+        "quantity": "50",
+        "publication": "BDE",
+        "source": "CMO",
+        "bookId": "Nitj#17"
+    }, {
+        "bookname": "The Fields",
+        "author": "Erin Young",
+        "genre": "Fiction",
+        "dateInducted": "2022-01-01",
+        "quantity": "20",
+        "publication": "ACE",
+        "source": "AATKINS",
+        "bookId": "Nitj#18"
+    }, {
+        "bookname": "The God of Small Things",
+        "author": "Arundhati Roy ",
+        "genre": "Fiction",
+        "dateInducted": "2011-01-01",
+        "quantity": "100",
+        "publication": "GoodRead Publications",
+        "source": "Admin",
+        "bookId": "Nitj#19"
+    }, {
+        "bookname": "The White Tiger",
+        "author": "Aravind Adiga",
+        "genre": "Fiction",
+        "dateInducted": "2012-01-01",
+        "quantity": "100",
+        "publication": "Indian-Fiction",
+        "source": "NITJ",
+        "bookId": "Nitj#20"
+    }, {
+        "bookname": "2 States: The Story of My Marriage",
+        "author": "Chetan Bhagat",
+        "genre": "Fiction",
+        "dateInducted": "2015-01-01",
+        "quantity": "100",
+        "publication": "CB",
+        "source": "Prof. Ramya",
+        "bookId": "Nitj#21"
+    }, {
+        "bookname": "The 3 Mistakes of My Life",
+        "author": "Chetan Bhagat ",
+        "genre": "Fiction",
+        "dateInducted": "2016-01-01",
+        "quantity": "100",
+        "publication": "CB",
+        "source": "Prof. Ramya",
+        "bookId": "Nitj#22"
+    }, {
+        "bookname": "The Secret of the Nagas (Shiva Trilogy #2)",
+        "author": "Amish Tripathi",
+        "genre": "Fiction",
+        "dateInducted": "2014-01-01",
+        "quantity": "100",
+        "publication": "AT",
+        "source": "NITJ",
+        "bookId": "Nitj#23"
+    }, {
+        "bookname": "The Rise and Reign of the Mammals",
+        "author": "Steve Brusatte",
+        "genre": "Non-Fiction",
+        "dateInducted": "2014-01-01",
+        "quantity": "100",
+        "publication": "GE",
+        "source": "NITJ",
+        "bookId": "Nitj#24"
+    }, {
+        "bookname": "Queen of Our Times",
+        "author": "Robert Hardman",
+        "genre": "Non-Fiction",
+        "dateInducted": "2014-01-01",
+        "quantity": "100",
+        "publication": "QTEB",
+        "source": "NITJ",
+        "bookId": "Nitj#25"
+    }, {
+        "bookname": "In Defence of Witches",
+        "author": "Mona Chollet",
+        "genre": "Non-Fiction",
+        "dateInducted": "2014-01-01",
+        "quantity": "100",
+        "publication": "Munit",
+        "source": "Prof. Mercury",
+        "bookId": "Nitj#26"
+    }, {
+        "bookname": "God: An Anatomy",
+        "author": "Francesca Stavrakopoulou",
+        "genre": "Non-Fiction",
+        "dateInducted": "2014-01-01",
+        "quantity": "100",
+        "publication": "DBEC",
+        "source": "Prof. Mercury",
+        "bookId": "Nitj#27"
+    }, {
+        "bookname": "This Is Going to Hurt",
+        "author": "Adam Kay",
+        "genre": "Non-Fiction",
+        "dateInducted": "2014-01-01",
+        "quantity": "100",
+        "publication": "BNEt",
+        "source": "Dr. Neon",
+        "bookId": "Nitj#28"
+    }, {
+        "bookname": "The Happiest Man on Earth",
+        "author": "Eddie Jaku",
+        "genre": "Non-Fiction",
+        "dateInducted": "2017-01-01",
+        "quantity": "85",
+        "publication": "QCP",
+        "source": "Dr. Pheonix",
+        "bookId": "Nitj#29"
+    }, {
+        "bookname": "A (Very) Short History of Life On Earth",
+        "author": "Henry Gee",
+        "genre": "Non-Fiction",
+        "dateInducted": "2018-01-01",
+        "quantity": "48",
+        "publication": "BNet",
+        "source": "Dr. Pheonix",
+        "bookId": "Nitj#30"
+    }, {
+        "bookname": "The Age of A.I. ",
+        "author": "Henry Kissinger, Eric Schmidt, and Daniel Huttenlocher",
+        "genre": "Technology",
+        "dateInducted": "2017-01-01",
+        "quantity": "105",
+        "publication": "Bnet",
+        "source": "Dr.KJ",
+        "bookId": "Nitj#31"
+    }, {
+        "bookname": " Doing Agile Right: Transformation without Chaos",
+        "author": "Darrell K. Rigby, Sarah Elk, and Steve Berez",
+        "genre": "Technology",
+        "dateInducted": "2016-01-01",
+        "quantity": "58",
+        "publication": "Dnet",
+        "source": "Dr.Kayo",
+        "bookId": "Nitj#32"
+    }, {
+        "bookname": "Technology & Society: Second Edition ",
+        "author": "Deborah G. Johnson and Jameson M. Wetmore",
+        "genre": "Technology",
+        "dateInducted": "2019-01-01",
+        "quantity": "104",
+        "publication": "RNP",
+        "source": "Dr. KJ",
+        "bookId": "Nitj#33"
+    }, {
+        "bookname": "Kubernetes Security and Observability ",
+        "author": "Brendan Creane, Amit Gupta",
+        "genre": "Technology",
+        "dateInducted": "2019-01-01",
+        "quantity": "105",
+        "publication": "GNTP",
+        "source": "Prof. Breach",
+        "bookId": "Nitj#34"
+    }, {
+        "bookname": "Women of Color in Tech: A Blueprint for Inspiring and Mentoring the Next Generation of Technology Innovators ",
+        "author": "Susanne Tedrick",
+        "genre": "Technology",
+        "dateInducted": "2014-12-01",
+        "quantity": "82",
+        "publication": "NKTY",
+        "source": "Viper",
+        "bookId": "Nitj#35"
+    }, {
+        "bookname": "The Economics of Data, Analytics, and Digital Transformation: The theorems, laws, and empowerments to guide your organization’s digital transformation ",
+        "author": "Bill Schmarzo",
+        "genre": "Technology",
+        "dateInducted": "2013-12-05",
+        "quantity": "89",
+        "publication": "NTP",
+        "source": "Dr. Viper",
+        "bookId": "Nitj#36"
+    }]
+}, {
+    "elemKey": "Members",
+    "elemData": [{
+        "memberId": "Ritvik Vyas",
+        "date": "2022-06-25",
+        "bookList": [{
+            "bookname": "The Artificial Intelligence: A Modern Approach",
+            "author": "Stuart Russell",
+            "genre": "Course",
+            "dateInducted": "2000-01-01",
+            "quantity": 101,
+            "publication": "CSE",
+            "source": "NITJ",
+            "bookId": "Nitj#8"
+        }, {
+            "bookname": "Design Patterns: Elements of Reusable objects Oriented Software",
+            "author": "Erich Gamma, John Vlissides, Richard Helm",
+            "genre": "Course",
+            "dateInducted": "2000-01-01",
+            "quantity": 101,
+            "publication": "CSE",
+            "source": "NITJ",
+            "bookId": "Nitj#5"
+        }],
+        "returned": [true, true]
+    }, {
+        "memberId": "Aman Mishra",
+        "date": "2022-06-21",
+        "bookList": [{
+            "bookname": "Marks Standard Handbook for Mechanical Engineers",
+            "author": "William M. Worek, Ali M Sadigh",
+            "genre": "Course",
+            "dateInducted": "2000-01-01",
+            "quantity": "100",
+            "publication": "ME",
+            "source": "NITJ",
+            "bookId": "Nitj#9"
+        }, {
+            "bookname": "Standard Handbook of Machine Design",
+            "author": "Joseph E. Shigley, Charles R. Mischke",
+            "genre": "Course",
+            "dateInducted": "2000-01-01",
+            "quantity": "100",
+            "publication": "ME",
+            "source": "NITJ",
+            "bookId": "Nitj#10"
+        }, {
+            "bookname": "Machinery’s Handbook",
+            "author": "Erik Oberg, Franklin D. Jones",
+            "genre": "Course",
+            "dateInducted": "2000-10-10",
+            "quantity": "100",
+            "publication": "ME",
+            "source": "NITJ",
+            "bookId": "Nitj#11"
+        }],
+        "returned": [false, false, false]
+    }, {
+        "memberId": "Ritish",
+        "date": "2022-06-05",
+        "bookList": [{
+            "bookname": "God: An Anatomy",
+            "author": "Francesca Stavrakopoulou",
+            "genre": "Non-Fiction",
+            "dateInducted": "2014-01-01",
+            "quantity": 101,
+            "publication": "DBEC",
+            "source": "Prof. Mercury",
+            "bookId": "Nitj#27"
+        }, {
+            "bookname": "Queen of Our Times",
+            "author": "Robert Hardman",
+            "genre": "Non-Fiction",
+            "dateInducted": "2014-01-01",
+            "quantity": "100",
+            "publication": "QTEB",
+            "source": "NITJ",
+            "bookId": "Nitj#25"
+        }],
+        "returned": [true, false]
+    }, {
+        "memberId": "Anant Chauhan",
+        "date": "2022-06-24",
+        "bookList": [{
+            "bookname": "The Rise and Reign of the Mammals",
+            "author": "Steve Brusatte",
+            "genre": "Non-Fiction",
+            "dateInducted": "2014-01-01",
+            "quantity": 101,
+            "publication": "GE",
+            "source": "NITJ",
+            "bookId": "Nitj#24"
+        }, {
+            "bookname": "A (Very) Short History of Life On Earth",
+            "author": "Henry Gee",
+            "genre": "Non-Fiction",
+            "dateInducted": "2018-01-01",
+            "quantity": 49,
+            "publication": "BNet",
+            "source": "Dr. Pheonix",
+            "bookId": "Nitj#30"
+        }, {
+            "bookname": "The Age of A.I. ",
+            "author": "Henry Kissinger, Eric Schmidt, and Daniel Huttenlocher",
+            "genre": "Technology",
+            "dateInducted": "2017-01-01",
+            "quantity": 106,
+            "publication": "Bnet",
+            "source": "Dr.KJ",
+            "bookId": "Nitj#31"
+        }],
+        "returned": [true, true, true]
+    }]
+}, {
+    "elemKey": "sort",
+    "elemData": [{
+        "bookname": "The C Programming Language",
+        "author": "Brian W. Kernighan",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "CSE",
+        "source": "NITJ",
+        "bookId": "Nitj#1"
+    }, {
+        "bookname": "The Soul of a New Machine",
+        "author": "Tracy Kidder",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "CSE",
+        "source": "NITJ",
+        "bookId": "Nitj#2"
+    }, {
+        "bookname": "The Art of Computer Programming, Volume 1: Fundamentals of Algorithm",
+        "author": "Donald Ervin Knuth",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "CSE",
+        "source": "NITJ",
+        "bookId": "Nitj#3"
+    }, {
+        "bookname": "Superintelligence: Path, Dangers, Strategies",
+        "author": "Nick Bostrom",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "CSE",
+        "source": "NITJ",
+        "bookId": "Nitj#4"
+    }, {
+        "bookname": "Design Patterns: Elements of Reusable objects Oriented Software",
+        "author": "Erich Gamma, John Vlissides, Richard Helm",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "CSE",
+        "source": "NITJ",
+        "bookId": "Nitj#5"
+    }, {
+        "bookname": "The Computer Networking: A Top-Down Approach",
+        "author": "James F. Kurose and Keith W. Ross",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "CSE",
+        "source": "NITJ",
+        "bookId": "Nitj#6"
+    }, {
+        "bookname": "Codes: The Hidden Language of the Computer Hardware and software",
+        "author": "Charles Petzold",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "CSE",
+        "source": "NITJ",
+        "bookId": "Nitj#7"
+    }, {
+        "bookname": "The Artificial Intelligence: A Modern Approach",
+        "author": "Stuart Russell",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "CSE",
+        "source": "NITJ",
+        "bookId": "Nitj#8"
+    }, {
+        "bookname": "Marks Standard Handbook for Mechanical Engineers",
+        "author": "William M. Worek, Ali M Sadigh",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "ME",
+        "source": "NITJ",
+        "bookId": "Nitj#9"
+    }, {
+        "bookname": "Standard Handbook of Machine Design",
+        "author": "Joseph E. Shigley, Charles R. Mischke",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "ME",
+        "source": "NITJ",
+        "bookId": "Nitj#10"
+    }, {
+        "bookname": "Machinery’s Handbook",
+        "author": "Erik Oberg, Franklin D. Jones",
+        "genre": "Course",
+        "dateInducted": "2000-10-10",
+        "quantity": "100",
+        "publication": "ME",
+        "source": "NITJ",
+        "bookId": "Nitj#11"
+    }, {
+        "bookname": "Thermodynamics: An Engineering Approach",
+        "author": "Yunus A. Cengel",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "ME",
+        "source": "NITJ",
+        "bookId": "Nitj#12"
+    }, {
+        "bookname": "Fluid Mechanics",
+        "author": "Frank M. White",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "ME",
+        "source": "NITJ",
+        "bookId": "Nitj#13"
+    }, {
+        "bookname": "To Engineer Is Human",
+        "author": "Henry Petroski",
+        "genre": "Course",
+        "dateInducted": "2000-01-01",
+        "quantity": "100",
+        "publication": "ME",
+        "source": "NITJ",
+        "bookId": "Nitj#14"
+    }, {
+        "bookname": "The Maid",
+        "author": "Nita Prose",
+        "genre": "Fiction",
+        "dateInducted": "2021-01-01",
+        "quantity": "100",
+        "publication": "GMA Books",
+        "source": "Nita Prose",
+        "bookId": "Nitj#15"
+    }, {
+        "bookname": "Olga Dies Dreaming",
+        "author": "Xochitl Gonzalez",
+        "genre": "Fiction",
+        "dateInducted": "2021-01-01",
+        "quantity": "100",
+        "publication": "ABC",
+        "source": "D. Rec",
+        "bookId": "Nitj#16"
+    }, {
+        "bookname": "To Paradise",
+        "author": "Hanya Yanagihara",
+        "genre": "Fiction",
+        "dateInducted": "2021-01-01",
+        "quantity": "50",
+        "publication": "BDE",
+        "source": "CMO",
+        "bookId": "Nitj#17"
+    }, {
+        "bookname": "The Fields",
+        "author": "Erin Young",
+        "genre": "Fiction",
+        "dateInducted": "2022-01-01",
+        "quantity": "20",
+        "publication": "ACE",
+        "source": "AATKINS",
+        "bookId": "Nitj#18"
+    }, {
+        "bookname": "The God of Small Things",
+        "author": "Arundhati Roy ",
+        "genre": "Fiction",
+        "dateInducted": "2011-01-01",
+        "quantity": "100",
+        "publication": "GoodRead Publications",
+        "source": "Admin",
+        "bookId": "Nitj#19"
+    }, {
+        "bookname": "The White Tiger",
+        "author": "Aravind Adiga",
+        "genre": "Fiction",
+        "dateInducted": "2012-01-01",
+        "quantity": "100",
+        "publication": "Indian-Fiction",
+        "source": "NITJ",
+        "bookId": "Nitj#20"
+    }, {
+        "bookname": "2 States: The Story of My Marriage",
+        "author": "Chetan Bhagat",
+        "genre": "Fiction",
+        "dateInducted": "2015-01-01",
+        "quantity": "100",
+        "publication": "CB",
+        "source": "Prof. Ramya",
+        "bookId": "Nitj#21"
+    }, {
+        "bookname": "The 3 Mistakes of My Life",
+        "author": "Chetan Bhagat ",
+        "genre": "Fiction",
+        "dateInducted": "2016-01-01",
+        "quantity": "100",
+        "publication": "CB",
+        "source": "Prof. Ramya",
+        "bookId": "Nitj#22"
+    }, {
+        "bookname": "The Secret of the Nagas (Shiva Trilogy #2)",
+        "author": "Amish Tripathi",
+        "genre": "Fiction",
+        "dateInducted": "2014-01-01",
+        "quantity": "100",
+        "publication": "AT",
+        "source": "NITJ",
+        "bookId": "Nitj#23"
+    }, {
+        "bookname": "The Rise and Reign of the Mammals",
+        "author": "Steve Brusatte",
+        "genre": "Non-Fiction",
+        "dateInducted": "2014-01-01",
+        "quantity": "100",
+        "publication": "GE",
+        "source": "NITJ",
+        "bookId": "Nitj#24"
+    }, {
+        "bookname": "Queen of Our Times",
+        "author": "Robert Hardman",
+        "genre": "Non-Fiction",
+        "dateInducted": "2014-01-01",
+        "quantity": "100",
+        "publication": "QTEB",
+        "source": "NITJ",
+        "bookId": "Nitj#25"
+    }, {
+        "bookname": "In Defence of Witches",
+        "author": "Mona Chollet",
+        "genre": "Non-Fiction",
+        "dateInducted": "2014-01-01",
+        "quantity": "100",
+        "publication": "Munit",
+        "source": "Prof. Mercury",
+        "bookId": "Nitj#26"
+    }, {
+        "bookname": "God: An Anatomy",
+        "author": "Francesca Stavrakopoulou",
+        "genre": "Non-Fiction",
+        "dateInducted": "2014-01-01",
+        "quantity": "100",
+        "publication": "DBEC",
+        "source": "Prof. Mercury",
+        "bookId": "Nitj#27"
+    }, {
+        "bookname": "This Is Going to Hurt",
+        "author": "Adam Kay",
+        "genre": "Non-Fiction",
+        "dateInducted": "2014-01-01",
+        "quantity": "100",
+        "publication": "BNEt",
+        "source": "Dr. Neon",
+        "bookId": "Nitj#28"
+    }, {
+        "bookname": "The Happiest Man on Earth",
+        "author": "Eddie Jaku",
+        "genre": "Non-Fiction",
+        "dateInducted": "2017-01-01",
+        "quantity": "85",
+        "publication": "QCP",
+        "source": "Dr. Pheonix",
+        "bookId": "Nitj#29"
+    }, {
+        "bookname": "A (Very) Short History of Life On Earth",
+        "author": "Henry Gee",
+        "genre": "Non-Fiction",
+        "dateInducted": "2018-01-01",
+        "quantity": "48",
+        "publication": "BNet",
+        "source": "Dr. Pheonix",
+        "bookId": "Nitj#30"
+    }, {
+        "bookname": "The Age of A.I. ",
+        "author": "Henry Kissinger, Eric Schmidt, and Daniel Huttenlocher",
+        "genre": "Technology",
+        "dateInducted": "2017-01-01",
+        "quantity": "105",
+        "publication": "Bnet",
+        "source": "Dr.KJ",
+        "bookId": "Nitj#31"
+    }, {
+        "bookname": " Doing Agile Right: Transformation without Chaos",
+        "author": "Darrell K. Rigby, Sarah Elk, and Steve Berez",
+        "genre": "Technology",
+        "dateInducted": "2016-01-01",
+        "quantity": "58",
+        "publication": "Dnet",
+        "source": "Dr.Kayo",
+        "bookId": "Nitj#32"
+    }, {
+        "bookname": "Technology & Society: Second Edition ",
+        "author": "Deborah G. Johnson and Jameson M. Wetmore",
+        "genre": "Technology",
+        "dateInducted": "2019-01-01",
+        "quantity": "104",
+        "publication": "RNP",
+        "source": "Dr. KJ",
+        "bookId": "Nitj#33"
+    }, {
+        "bookname": "Kubernetes Security and Observability ",
+        "author": "Brendan Creane, Amit Gupta",
+        "genre": "Technology",
+        "dateInducted": "2019-01-01",
+        "quantity": "105",
+        "publication": "GNTP",
+        "source": "Prof. Breach",
+        "bookId": "Nitj#34"
+    }, {
+        "bookname": "Women of Color in Tech: A Blueprint for Inspiring and Mentoring the Next Generation of Technology Innovators ",
+        "author": "Susanne Tedrick",
+        "genre": "Technology",
+        "dateInducted": "2014-12-01",
+        "quantity": "82",
+        "publication": "NKTY",
+        "source": "Viper",
+        "bookId": "Nitj#35"
+    }, {
+        "bookname": "The Economics of Data, Analytics, and Digital Transformation: The theorems, laws, and empowerments to guide your organization’s digital transformation ",
+        "author": "Bill Schmarzo",
+        "genre": "Technology",
+        "dateInducted": "2013-12-05",
+        "quantity": "89",
+        "publication": "NTP",
+        "source": "Dr. Viper",
+        "bookId": "Nitj#36"
+    }]
+}]
